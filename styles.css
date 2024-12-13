@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+}
+
+#loading-text{
+    display: none;
+}
+
+#responseDiv {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-family: sans-serif;
+    gap: 2px;
+}
+
+input{
+    height: 50px;
+}
+
+button{
+    background-color: rebeccapurple;
+    padding: 10px 40px;
+    color: white;
+}
+
+#error-div{
+    background-color: red;
+    padding: 20px;
+    text-white;
+    display: none;
+}
